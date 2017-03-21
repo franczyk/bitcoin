@@ -76,7 +76,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>BrodyBucksGUI</name>
     <message>
         <source>&amp;Transactions</source>
         <translation>Transazioni</translation>
