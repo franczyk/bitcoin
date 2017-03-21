@@ -126,7 +126,7 @@ public:
         //vSeeds.push_back(CDNSSeedData("bitcoinstats.com", "seed.bitcoinstats.com", true)); // Christian Decker, supports x1 - xf
         //vSeeds.push_back(CDNSSeedData("bitcoin.jonasschnelli.ch", "seed.bitcoin.jonasschnelli.ch", true)); // Jonas Schnelli, only supports x1, x5, x9, and xd
         //vSeeds.push_back(CDNSSeedData("petertodd.org", "seed.btc.petertodd.org", true)); // Peter Todd, only supports x1, x5, x9, and xd
-        vSeeds.push_back(CDNSSeedData("aws.amazon.com", "ec2-54-202-222-166.us-west-2.compute.amazonaws.com", true)); // Peter Todd, only supports x1, x5, x9, and xd
+        vSeeds.push_back(CDNSSeedData("aws.amazon.com", "ec2-54-213-224-162.us-west-2.compute.amazonaws.com", true)); // Peter Todd, only supports x1, x5, x9, and xd
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,0);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -226,7 +226,7 @@ public:
         //vSeeds.push_back(CDNSSeedData("petertodd.org", "seed.tbtc.petertodd.org", true));
         //vSeeds.push_back(CDNSSeedData("bluematt.me", "testnet-seed.bluematt.me"));
         //vSeeds.push_back(CDNSSeedData("bitcoin.schildbach.de", "testnet-seed.bitcoin.schildbach.de"));
-        vSeeds.push_back(CDNSSeedData("aws.amazon.com", "ec2-54-203-241-200.us-west-2.compute.amazonaws.c    om"));
+        vSeeds.push_back(CDNSSeedData("aws.amazon.com", "ec2-54-213-224-162.us-west-2.compute.amazonaws.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
